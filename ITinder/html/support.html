@@ -1,0 +1,43 @@
+ <html>
+  <head>
+	<meta charset="utf-8">
+    <title>Supportseite, ITinder</title>
+  </head>
+     <body>
+   <img align = "center" src="ITinderLogo.jpeg" width="350" height="162" alt="Logo">
+         
+         <ul>
+            <li> Startseite</li>
+            <li> Login</li>
+            <li> Registrierung</li> 
+            <li>Support</li>             
+         </ul>
+         
+         
+<h3> Sie haben ein Problem?</h3>
+  <h4> Lassen Sie es uns wissen!</h4>
+<br>
+<form action="support" method="post"> 
+    
+      <label for="text">Anmerkung:</label> <br>
+      <textarea id="text" name="text" cols="35" rows="4" placeholder="Hier Ihre Anmerkung"></textarea> 	<br>
+      <input type="submit" value="Senden" >
+   
+</form>
+<h3> Wie zufrieden sind Sie?</h3>
+         
+<form action = "rating" method = "post">
+    <input type ="radio" name="room" id="r1" value = "sehr zufrieden">
+    <label for = "r1" >sehr zufrieden </label> <br>
+    
+    <input type ="radio" name="room" id="r2" value = "zufrieden">
+    <label for = "r2" > zufrieden </label> <br>
+         
+     <input type ="radio" name="room" id="r3" value = "unzufrieden">
+    <label for = "r3" > unzufrieden </label> <br>
+    
+    <input type ="radio" name="room" id="r4" value = "sehr unzufrieden">
+    <label for = "r4" >sehr unzufrieden </label> <br>
+           <input type="submit" value="Senden" >
+         </form>
+     </body>
